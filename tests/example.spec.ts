@@ -7,7 +7,7 @@ test('has title', async ({ page }) => {
   await expect(page).toHaveTitle(/Playwright/);
 });
 
-test.only('get started link', async ({ page }) => {
+test('get started link', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
   //Check Github icon is visible
